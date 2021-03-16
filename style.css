@@ -1,0 +1,131 @@
+.container{
+    width: 100%;
+    max-width: auto;
+    background-color: black;
+    height: 80px;
+   
+}
+.container2{
+    width: 720px;
+   margin: 0 auto;
+   margin-top: 100px;
+   text-align: center;
+}
+.inner{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.inner2{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 60px;
+}
+.navbar{
+    color: red;
+    
+}
+.navbar li{
+    display: inline-block;
+    height: 50px;
+    line-height: 45px;
+    font-size: 18px;
+    border: 1px dotted #555;
+    
+    min-width: 70px;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.navbar a:hover{
+    background-color: red;
+    color: white;
+    border-bottom: 3px solid rgb(151, 74, 223);
+}
+.navbar ul{
+    background-color: black;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+   
+}
+.left{
+    float: left;
+}
+h1{
+    font-size: 50px;
+}
+.container3{
+    width: 1300px;
+    /* background-color: #ddd; */
+     margin: 0 auto; /*top bottom == 0 ,right left===auto,this will centarize the content */
+}
+.col1{
+    /* background-color: aliceblue; */
+    float: left;
+    width: 34%;
+}
+.col2{
+    /* background-color: red; */
+   width: 33%;
+   display: inline-block;
+  
+}
+.col3{
+    /* background-color: green; */
+    float: right;
+    width: 33%;
+    
+}
+
+  .divy{
+            /* border: 1px dashed #222; */
+            padding: 10%;
+            height: 200px;
+        }
+        button {
+            background-color: rgb(219, 219, 240);
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 10.8px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            color: black;
+          }
+          button:hover{
+            background-color: rgb(90, 90, 231);
+          }
+         /* .template
+         {
+            border-bottom-right-radius: 30%;
+            border-bottom-left-radius: 30%;
+         } */
+         .container4{
+            width: 100%;
+            max-width: auto;
+            background-color: rgb(29, 21, 21);
+            height: 200px;
+           
+        }
+        h3{
+            padding-top: 100px;
+            text-align: center;
+            color: white;
+            
+        }
+        h3 a:hover{
+            cursor: pointer;
+            
+        }
+        
